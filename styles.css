@@ -35,6 +35,7 @@ body {
 	animation-name: shibemove;
 	animation-duration: 8s;
 	animation-iteration-count: infinite;
+	position: relative;
 }
 
 /*
@@ -47,6 +48,7 @@ body {
 */
 
 
+
 @keyframes glow {
 	0% {box-shadow: -20px 0px 58px -1px rgba(255,0,0,1);}
 	50% {box-shadow: 20px 0px 58px -1px rgba(0,0,255,1);}
@@ -54,9 +56,9 @@ body {
 }
 
 @keyframes shibemove {
-	0% {margin-left: 0%;}
-	50% {margin-left: 80%; transform:scaleX(-1);}
-	100% {margin-left: 0%;}
+	0% {left: 0%;}
+	50% {left: 80%; transform:scaleX(-1);}
+	100% {left: 0%;}
 }
 
 

@@ -33,7 +33,7 @@ body {
 	height:300px;
 	width:300px;
 	animation-name: shibemove;
-	animation-duration: 1s;
+	animation-duration: 10s;
 	animation-iteration-count: infinite;
 	position: relative;
 }

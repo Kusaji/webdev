@@ -44,8 +44,6 @@ div.box:hover {
 @keyframes soundHover {
 	0% {width:80px; height:80px; }
 	100% {
-		width:100px;
-	 	height:100px;
 	 	border: 1px solid red;
 	 	box-shadow: 0px 0px 13px 0px rgba(100,0,0,0.75);
 		}
@@ -53,8 +51,6 @@ div.box:hover {
 
 @keyframes soundHoverOut {
 	0% {
-		width:100px;
-	 	height:100px;
 	 	border: 1px solid red;
 	 	box-shadow: 0px 0px 20px 2px rgba(100,0,0,0.75);
 		}

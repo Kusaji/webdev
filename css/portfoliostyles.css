@@ -1,0 +1,29 @@
+.jumboMargin {
+	margin-top: 80px;
+}
+
+.profilePhoto {
+	border-radius: 100%;
+	box-shadow: 0px 0px 21px 0px rgba(0,0,0,0.75);
+}
+
+.center {
+	text-align: center;
+}
+
+.emailIcon {
+	height:25px;
+}
+
+.footerText {
+	font-size: 0.8em;
+}
+
+.navLogo {
+	height:50px;
+}
+
+.margintop {
+	margin-top: 80px;
+}
+

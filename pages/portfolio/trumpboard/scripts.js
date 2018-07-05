@@ -19,7 +19,6 @@ function playSound(i) {
 };
 
 
-//This function will stop all sounds
 function stopSound(i) {
 	for (var i = 0; i < 12; i++){
 	sounds[i].pause();
@@ -27,7 +26,6 @@ function stopSound(i) {
 	}
 };
 
-//This function will cause the space bar to call the stopSound function
 document.onkeydown = function(e) {
     switch (e.keyCode) {
         case 32:

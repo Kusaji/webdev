@@ -21,7 +21,7 @@ function playSound(i) {
 
 //This function will stop all sounds
 function stopSound(i) {
-	for (var i = 0; i < sounds.length; i++){
+	for (var i = 0; i < 12; i++){
 	sounds[i].pause();
 	sounds[i].currentTime = 0;
 	}

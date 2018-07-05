@@ -24,13 +24,14 @@ function stopSound(i) {
 	for (var i = 0; i < sounds.length; i++){
 	sounds[i].pause();
 	sounds[i].currentTime = 0;
-	}
+	};
 }
+
 //This function will cause the space bar to call the stopSound function
 document.onkeydown = function(e) {
     switch (e.keyCode) {
         case 32:
             stopSound();
             break;
-    }
-};
+    };
+}

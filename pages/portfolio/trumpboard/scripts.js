@@ -19,9 +19,9 @@ function playSound(i) {
 };
 
 
-function stopSound(i) {
-	for (var i = 0; i < 12; i++){
-	sounds[i].pause();
-	sounds[i].currentTime = 0;
+function stopSound(j) {
+	for (var j = 0; j < 12; j++){
+	sounds[j].pause();
+	sounds[j].currentTime = 0;
 	}
 };

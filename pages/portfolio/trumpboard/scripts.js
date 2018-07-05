@@ -25,11 +25,3 @@ function stopSound(i) {
 	sounds[i].currentTime = 0;
 	}
 };
-
-document.onkeydown = function(e) {
-    switch (e.keyCode) {
-        case 32:
-            stopSound();
-            break;
-    }
-};

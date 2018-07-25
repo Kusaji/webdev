@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "SideSroller",
+"dataUrl": "Alpha WebGL.data.unityweb",
+"asmCodeUrl": "Alpha WebGL.asm.code.unityweb",
+"asmMemoryUrl": "Alpha WebGL.asm.memory.unityweb",
+"asmFrameworkUrl": "Alpha WebGL.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}

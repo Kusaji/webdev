@@ -24,10 +24,20 @@
 }
 
 .margintop {
-	margin-top: 80px;
+	margin-top: 60px;
+}
+
+.margintop2 {
+	margin-top: 20px;
 }
 
 .cardTop {
 	height: 400px;
+}
+
+body {
+	background-image: url(../img/CodeBackground.png);
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 
